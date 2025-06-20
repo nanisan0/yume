@@ -10,7 +10,7 @@ def get_dataframe_from_excel():
     # index_col='订单号'表示将“订单号”这一列作为返回的数据框的索引
     # 最后将读取到的数据框赋值给变量df
     df = pd.read_excel(
-        supermarket_sales.xlsx',
+        'supermarket_sales.xlsx',
         sheet_name='销售数据',
         skiprows=1,
         index_col='订单号'
